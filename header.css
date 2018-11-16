@@ -1,0 +1,587 @@
+/* 总体页面布局 */
+.container{
+    width:1200px;
+    padding-right:18.95%;
+    padding-left:18%;
+    
+  }
+
+/* 顶部动态声明 */
+  .my_center>header>div:first-child {
+    /* border:1px solid blue; */
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+  
+  /* 左边logo图标 */
+  #top{
+    display:flex;
+    justify-content: space-between;
+    margin:0px;
+    
+  }
+  .logo_right {
+    /* border:1px solid red; */
+    width:15%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  /* logo图片 */
+  .logo_right>img {
+    /* border:1px solid red; */
+    height: 60px;
+    width: 80px;
+  
+  }
+  
+  /* 地址定位 */
+  .logo_right>span {
+    /* border:1px solid blue; */
+    background-image: url(../img/logo/earth.png);
+    background-repeat: no-repeat;
+    padding-left: 33px;
+    color: white;
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+  
+  }
+  
+  .logo_right>span:hover {
+    cursor: pointer;
+  }
+  
+  /* 顶部导航 */
+  .mt_list {
+    /* border:1px solid blue; */
+    width:60%;
+    margin-top: 20px;
+  }
+  
+  /* 导航ul */
+  .mt_list>ul {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    margin-top:0;
+  }
+ 
+  /* 头部列表字体 */
+  .mt_list>ul a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height:70px;
+  }
+  
+  /* 导航li */
+  /* .mt_list>ul>li{
+      border:1px solid red; 
+  } */
+  /* 模块：搜索+注册登陆 */
+  .mt_search {
+    /* border:1px solid red; */
+    width:25%;
+    height:35px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-right:10px;
+  }
+  
+  /* 头部导航子列表 */
+  
+  /* 子列表一 */
+  .mt_list>ul li>a:hover {
+    color: rgb(75, 236, 236);
+    /*主列表鼠标悬停*/
+  }
+  .my_center {
+    position: relative;
+  }
+  
+  /* 子列表ul */
+  .tea_detail{
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    background: white;
+    font-size: 16px;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    box-shadow: 0px 5px 10px #ddd;
+    left: 0px;
+    display:none;
+  }
+  
+  .in {
+    display: flex;
+    justify-content: space-between;
+    z-index: 9;
+  }
+  
+  /* 子列表 项 */
+  .tea_detail_pic {
+    width: 310px;
+    height: 110px;
+    padding-left: 0;
+    margin-top: 20px;
+    border-right: 1px solid #ddd;
+    /* border:1px solid red; */
+  }
+  .tea_detail_pic>p{
+   margin:0;
+  }
+  .tea_detail_pic:last-child {
+    border: none;
+  }
+  
+  /* 图片 */
+  .tea_detail_pic img {
+    width: 150px;
+    height: 110px;
+  }
+  
+  /* 文字 */
+  .tea_detail>li>a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* 价格 */
+  .tea_detail_pic span {
+    color: red;
+  }
+  
+  /* 悬停*/
+  .tea_detail_pic:hover {
+    cursor: pointer;
+  }
+  
+  /* 搜索、注册登陆分别模块 */
+  .mt_search>div {
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  /* 模块：输入框+搜索 */
+  /* .mt_search>div:first-child{
+      border:1px solid yellowgreen;
+  } */
+  /* 模块：输入框 */
+  .mt_search>div>div {
+    border: 1px solid #ddd;
+    padding-top: 4px;
+  }
+  
+  /* 搜索 */
+  .mt_search>div:first-child>div:last-child {
+    /* border:1px solid blue; */
+    border: none;
+    padding: 3px 15px;
+    background-color: #25cbca;
+    font-size: 16px;
+    color: white;
+  }
+  
+  /*输入框 */
+  .mt_search input {
+    border: none;
+  }
+  
+  /* 模块：用户登录注册 */
+  .mt_search>div:last-child {
+    /* border:1px solid blue; */
+    background-color: #ddd;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  
+  }
+  
+  .mt_search>div:last-child:hover {
+    cursor: pointer;
+  }
+  
+  /* 用户logo图片 */
+  .mt_search>div:last-child>img {
+    /* border:1px solid red; */
+    padding: 3px 2px;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+  }
+  /* ****左 右固定定位**** */
+  /* 左侧客服 */
+  .my_fixed_left {
+    width: 55px;
+    position: fixed;
+    left: 70px;
+    bottom: 90px;
+    z-index:6;
+  }
+  
+  /* 右侧 固定 */
+  /* 模块   */
+  .my_fixed_right {
+    width:65px;
+    text-align: center;
+    font-size:13px;
+    position: fixed;
+    right: 2%;
+    bottom: 90px;
+    z-index:6;
+  }
+  
+  /* 单个模块 */
+  .my_fixed_right>div {
+    border: 1px solid gray;
+    width: 100%;
+    height:50px;
+    background: white;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+  }
+  
+  /* 最后一个的背景 */
+  .my_fixed_right>div:last-child {
+    background: #25cbca;
+  }
+  .my_fixed_right>div:last-child>span{
+    color:white;
+  }
+  /* 悬停 */
+  .my_fixed_right>div:hover {
+    cursor: pointer;
+  }
+  
+  /* 图片 */
+  .my_fixed_right img {
+    width: 30%;
+    padding-top:10px;
+  }
+  
+  .my_fixed_right>div:nth-child(3) img {
+    width: 30%;
+  }
+  
+  /* 文字 */
+  .my_fixed_right span {
+    color: gray;
+  }
+  
+  /* 购物车数量显示 */
+  .my_fixed_right>div:nth-child(2)>div {
+    width: 25%;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 18%;
+    top: 5%;
+  }
+  
+  /* 购物车数量 文字 */
+  .my_fixed_right>div:nth-child(2)>div span {
+    color: white;
+  }
+  
+  /*******登录*********/
+  
+  /* 登陆背景窗口 */
+  .login {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    display: none;
+  }
+  
+  /* 登录模块 */
+  .login_one {
+    width: 550px;
+    height: 500px;
+    float: right;
+    padding-top: 20px;
+    background: url(../img/logo/quick.png) no-repeat 430px 0px;
+    background-color: white;
+    text-align: center;
+    z-index: 5;
+    /* border:1px solid red; */
+    float: left;
+    left: 35%;
+    top: 25%;
+    position: fixed;
+  }
+  
+  /* 顶部切换栏 */
+  .login_one>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid red; */
+  }
+  
+  .login_top{
+    padding-right:95px;
+  }
+  /* x */
+  .login_top>span:first-child {
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: 15px;
+  }
+  
+  .login_top>span:first-child:hover {
+    cursor: pointer;
+  }
+  
+  /* 文字 */
+  .login_top>span:nth-child(2) {
+    font-size: 14px;
+    margin-left: 15px;
+    line-height: 32px;
+    font-weight: bold;
+    color: gray;
+   
+  }
+  
+  /* 登录 */
+  .login_one>div:nth-child(2) {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  
+  /* 登录框 密码框*/
+  .login_input>input {
+    width: 250px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+  }
+  
+  .password {
+    background: url(../img/logo/icon_lamp_off.png) no-repeat 220px 8px;
+  }
+  /* 报错文字 */
+  .msg{
+    margin-top:5px;
+    height:10px;
+    font-size:13px;
+    color:red;
+    padding-left:40px;
+  }
+  /* 登陆按钮 */
+  .submit {
+    width: 250px;
+    height: 35px;
+    background: #46f2f8;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 48px;
+    border-radius: 5px;
+    border: none;
+  
+  }
+  
+  /* 同意协议 */
+  .login_true {
+    font-size: 12px;
+  }
+  
+  .login_true>a {
+    text-decoration: none;
+    color: rgb(163, 162, 162);
+  }
+  
+  /* 忘记密码 */
+  .login_one>p:last-child {
+    font-size: 12px;
+    color: #46f2f8;
+  }
+  
+  .login_one>p:last-child>span {
+    margin-right: 25px;
+  }
+  
+  .topFixed{
+      width:1200px;
+    position:fixed;
+    top:0px;
+    margin-right:18%;
+    margin-left:18%;
+      background-color:white;
+      box-shadow:0px 5px 5px rgba(0,0,0,0.1);
+    padding-top:5px;
+    z-index:8;
+  }
+  
+  /* *****注册**** */
+  /* 灰色背景 */
+  .register{
+      width:100%;
+      height:100%;
+      background-color:rgba(0,0,0,0.3);
+      position:fixed;
+      top:0;
+      text-align:center;
+      color:white;
+    display:none;
+    z-index:9;
+  }
+  /* 白色底框 */
+  .register_one{
+      width:450px;
+      height:500px;
+      background-color:white;
+      margin-top:200px;
+      margin-left:700px;
+  }
+  /* x*/
+  .my_close{
+      font-size:32px;
+      color:black;
+      text-align:left;
+      padding-left:10px;
+  }
+  /* 手机/密码->输入框*/
+  .my_input>input{
+      width:250px;
+      height:35px;
+      border-radius:5px;
+      border-color:#ddd;
+      margin-top:10px;
+  }
+  /* 验证条 */
+  /* .my_btn_one{ */
+      /* width:250px; */
+      /* height:35px; */
+      /* position:relative;
+      text-align:center;
+  } */
+  /* 验证条背景框 */
+  /* .my_btn_one>input{
+      width:250px;
+      height:35px;
+      background-color:#46f2f8;
+      margin-top:20px;
+      margin-left:22px;
+      border-radius:5px;
+      border:none;
+  } */
+  /* 验证条按钮 */
+  /* .my_btn_one>button{
+      width:50px;
+      height:30px;
+      position:absolute;
+      top:22px;
+      left:115px;
+      border-radius:5px;
+      cursor:move;
+  } */
+  /* 验证码输入框 */
+  /* .my_input_two>input{
+      width:140px;
+      height:35px;
+      margin-top:20px;
+      margin-left:20px;
+      border-radius:5px;
+  } */
+  /* 发送验证码按钮 */
+  /* .my_input_two>input:last-child{
+      width:100px;
+      margin-left:5px;
+      background-color:#46f2f8;
+      border:none;
+  } */
+  /* 注册按钮 */
+  .my_btn{
+      width:250px;
+      height:35px;
+      background-color:#46f2f8;
+      border:none;
+      border-radius:5px;
+      margin-top:40px;
+      margin-left:20px;
+  }
+  /* 复选框 */
+  .my_check>input{
+      cursor:default;/*???*/
+      border:1px solid  red;
+  }
+  /* 文字 */
+  .my_check{
+      font-size:10px;
+      color:gray;
+  }
+  /* 悬停 */
+  .my_check>span{
+      cursor:pointer;
+  }
+  /* 文字-登录 */
+  .logText{
+      font-size:15px;
+      color:#46f2f8;
+  }
+  
+/* *****地址定位**** */
+/* 背景 */
+.address{
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.3);
+	position:fixed;
+	top:0;
+  display:none;
+  z-index:9;
+  padding-left:675px;
+}
+/* 地址列表 */
+.address_one{
+	width:700px;
+	height:300px;
+	background-color:white;
+	padding-left:70px;
+  padding-top:50px;
+  margin-top:200px;
+  border-radius:5px;
+
+}
+/*地址按钮*/
+.address_one button{
+	width:70px;
+	height:25px;
+	border:none;
+  font-size:16px;
+	background-color:white;
+  margin:30px 10px 10px;
+}
+.address_one>div:last-child{
+  text-align:left;
+}
+/* 悬停 */
+.address_one button:hover{
+	background-color:#46f2f8;
+	border-radius:10px;
+	color:white;
+}
+.address>div:last-child{
+  margin-left:350px;
+  margin-top:40px;
+}
