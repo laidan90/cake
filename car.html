@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/car.css">
+	<script src="js/jquery-1.11.3.js"></script>
+</head>
+<body>
+	<header></header>
+	<div class='container'>
+		<!-- 进度条 -->	
+		<!-- 进度1 -->
+		<div class="speed">
+			<div class="speed_one">
+				<!-- 进度长度 -->
+				<div class="speed_one_line">
+					<!-- 图片 -->
+					<img src="img/car/icon_cart_done.png" alt="" />
+				</div>
+				<!-- 进度名称 -->
+				<span class="speed_one_s"><span>1</span>购物车</span>
+			</div>
+			<!-- 进度2 -->
+			<div class="speed_two">
+				<!-- 进度长度 -->
+				<div class="speed_two_line">
+					<!-- 图片 -->
+					<img src="img/car/icon_cart_undone.png" alt="" />
+				</div>
+				<!-- 进度名称 -->
+				<span class="speed_two_s"><span>2</span>确认订单</span>
+			</div>
+			<!-- 进度3 -->
+			<div class="speed_two">
+				<!-- 进度长度 -->
+				<div class="speed_two_line">
+					<!-- 图片 -->
+					<img src="img/car/icon_cart_undone.png" alt="" />
+				</div>
+				<!-- 进度名称 -->
+				<span class="speed_two_s"><span>3</span>提交订单</span>
+			</div>
+			<!-- 进度4 -->
+			<div class="speed_two">
+				<!-- 进度长度 -->
+				<div class="speed_two_line">
+					<!-- 图片 -->
+					<img src="img/car/icon_cart_undone.png" alt="" />
+				</div>
+				<!-- 进度名称 -->
+				<span class="speed_two_s"><span>4</span>支付成功</span>
+			</div>
+			<div class="speed_two_line stop"></div>
+		</div>
+		<!-- 订单信息 -->
+		<div class="car_title">订单信息</div>
+		<!-- 列名称-->
+		<ul class="car_list">
+			<li>商品</li>
+			<li>属性</li>
+			<li>单价</li>
+			<li>数量</li>
+			<li>优惠方式</li>
+			<li>金额</li>
+			<li>操作</li>
+		</ul>
+		<!-- 订单显示区域 -->
+		<ul class="car_list_product" >
+			<!-- 订单为空时 -->
+			<li class="list_n">暂无商品？可以选择下面的热销新品推荐哟~</li>
+			<!-- 购物车有订单时 -->
+			<li class="list_y">
+				<ul class="product_list_one">
+					<!-- 商品 -->
+					<li class="product">
+						<!-- 变化 -->
+						<img src="img/car/check_box_focused_1.png" alt="">
+						<!-- 图片 -->
+						<img src="img/car/新狮子王.jpg" alt="">
+						<!-- 文字信息 -->
+						<ul class="product_detail">
+							<li>Bestcake [经典系列]</li>
+							<li><a href="#">The King of Lion</a></li>
+							<li>新狮子王</li>
+						</ul>
+					</li>
+					<!-- 属性 -->
+					<li class="attr">
+						<span>标配</span>
+						<ul>
+							<li>1.2磅</li>
+							<li>餐具套装1套</li>
+						</ul>
+					</li>
+					<!-- 单价 -->
+					<li >198 <span>.00</span></li>
+					<!-- 数量 -->
+					<li class="calc">
+						<span class="btn">-</span>
+						<span>1</span>
+						<span class="btn">+</span>
+					</li>
+					<!-- 优惠方式 -->
+					<li>无优惠</li>
+					<!-- 金额 -->
+					<li>￥ <span  class="count">198.00</span></li>
+					<!-- 操作 -->
+					<li >
+						<img src="img/car/icon_cart_close_1.png" alt="" class="close_one">
+						<!--确定删除此商品 -->
+						<div class="bg_one" >
+							<div class="box">
+								<span>确定删除此商品</span><br>
+								<button>确定</button>
+								<button class="box_in" >取消</button>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="product_list_one">
+					<!-- 商品 -->
+					<li class="product">
+						<!-- 变化 -->
+						<img src="img/car/check_box_focused_1.png" alt="">
+						<!-- 图片 -->
+						<img src="img/car/新狮子王.jpg" alt="">
+						<!-- 文字信息 -->
+						<ul class="product_detail">
+							<li>Bestcake [经典系列]</li>
+							<li><a href="#">The King of Lion</a></li>
+							<li>新狮子王</li>
+						</ul>
+					</li>
+					<!-- 属性 -->
+					<li class="attr">
+						<span>标配</span>
+						<ul>
+							<li>1.2磅</li>
+							<li>餐具套装1套</li>
+						</ul>
+					</li>
+					<!-- 单价 -->
+					<li >198 <span>.00</span></li>
+					<!-- 数量 -->
+					<li class="calc">
+						<span class="btn">-</span>
+						<span>1</span>
+						<span class="btn">+</span>
+					</li>
+					<!-- 优惠方式 -->
+					<li>无优惠</li>
+					<!-- 金额 -->
+					<li>￥ <span class="count">198.00</span></li>
+					<!-- 操作 -->
+					<li >
+						<img src="img/car/icon_cart_close_1.png" alt="" class="close_one">
+						<!--确定删除此商品 -->
+						<div class="bg_one" >
+							<div class="box">
+								<span>确定删除此商品</span><br>
+								<button>确定</button>
+								<button class="box_in" >取消</button>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</li>
+			
+		</ul>
+		
+		<!--添加选项 -->
+		<div class="add_l">
+			<!-- 左侧 选项区 -->
+			<ul class="add_s">
+				<li>
+					<img src="img/car/icon_1.png" alt="">添加蜡烛
+					
+				</li>
+				<li>
+					<img src="img/car/icon_2.png" alt="">添加餐具
+					
+				</li>
+			</ul>
+			<!-- 右侧 删除区 -->
+			<ul class="add_s">
+				<li style="padding-top:6px;">
+					共计<span>0</span>件商品
+				</li>
+				<li >
+					<img src="img/car/icon_cart_dustbin.png" alt="" class="close_one" >
+					<!-- 清空购物车 弹窗 -->
+					<div class="bg_one" >
+						<div class="box">
+							<span>确定清空您购物车内所有商品吗？</span><br>
+							<button>确定</button>
+							<button class="box_in" >取消</button>
+						</div>
+					</div>
+				</li>
+				
+			</ul>
+		</div>
+		<!--蜡烛清单 -->
+		<div  class="candle_bg" id="candle_list">
+			<!-- 首行 文字 -->
+			<div>每款经典系列蛋糕免费赠送1套标准蜡烛</div>
+			<!-- 图文 列表 -->
+			<div class="candle_menu">
+				<!-- 1 -->
+				<div class="candle">
+					<img src="img/car/candle1.jpg" alt="">
+					<div>
+						<div>Bestcake 标准蜡烛</div>
+						<div>￥5.00</div>
+						<div>
+							<button>-</button>
+							<input type="text" value=0>
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="candle">
+					<img src="img/car/candle1.jpg" alt="">
+					<div>
+						<div>Bestcake 标准蜡烛</div>
+						<div>￥5.00</div>
+						<div>
+							<button>-</button>
+							<input type="text" value=0>
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+				<!-- 3 -->
+				<div class="candle">
+					<img src="img/car/candle1.jpg" alt="">
+					<div>
+						<div>Bestcake 标准蜡烛</div>
+						<div>￥5.00</div>
+						<div>
+							<button>-</button>
+							<input type="text" value=0>
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+				<!-- 4 -->
+				<div class="candle">
+					<img src="img/car/candle1.jpg" alt="">
+					<div>
+						<div>Bestcake 标准蜡烛</div>
+						<div>￥5.00</div>
+						<div>
+							<button>-</button>
+							<input type="text" value=0>
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button>确定</button>
+		</div>
+		<!-- 餐具列表 -->
+		<div class="candle_bg" id="knife_list">
+			<div>注：共赠送1套餐具；伴手礼星座系列蛋糕内含不锈钢刀叉；如需额外购买 3.0元/套</div>
+			<div>
+				<span>Bestcake  餐具  （每套含5人份餐盘、叉子、1把切刀）</span>
+				<span style="padding:2px 20px;">￥ 3.0</span>
+				<button>-</button><input type="text" value=0><button>+</button>
+			</div>
+			<button>确定</button>
+		</div>
+		<!-- 费用合计-->
+		<div id="prc">
+			<!-- 项目名称 -->
+			<ul>
+				<li>商品总计</li>
+				<li>运 &nbsp; &nbsp; &nbsp;费</li>
+				<li>优  &nbsp; &nbsp; &nbsp;惠</li>
+				<li>应付总额</li>				
+			</ul>
+			<!-- 金额 -->
+			<ul>
+				<li>￥198.00</li>
+				<li>￥0.00</li>
+				<li>￥0.00</li>
+				<li>￥198.00</li>				
+			</ul>
+		</div>
+		<div class="settle">
+			<button>继续购物</button>
+			<button>下单结算</button>
+		</div>
+	</div>
+	<footer></footer>
+	<script src="js/car.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+</body>
+</html>

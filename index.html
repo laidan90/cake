@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+ 	<script src="js/jquery-1.11.3.js"></script>
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="container ">
+		<!-- header -->
+		<div  class="my_center " >
+			<!-- <div>公告：我司近期发现有客户通过非正常渠道售卖的代金卡无法正常使用，目前我司正通过法律途径解决此问题。我司在此郑重申明，从未授权过任何渠道售卖我司代金卡，请客户通过正常渠道（如：官网、公司销售）进行购买消费。
+					公告日期：2017年10月09日</div> -->
+			<!-- 顶部导航 -->
+			<div id="top" >
+				<!--头部导航 左中右 2:6:4  -->
+				<div class=" logo_right">
+				<!-- 左边 -->
+		
+				<!-- 左边logo图标 -->
+				<img src="img/logo/logo.png">
+				<!-- 地址定位 -->
+				<!-- <div>成都</div>  -->
+				<span id="add_span">成都</span>
+		
+				</div>
+				<!--顶部导航-->
+				<div class=" mt_list">
+				<ul>
+					<li><a href="http://127.0.0.1:8001/index.html">首页</a></li>
+					<li class="mt_list_menu">
+					<a href="#" >下午茶</a>
+					<!-- 子列表一 -->
+				<ul class="tea_detail">
+						<!-- <li class="tea_detail_pic">
+						<img src="img/list_top/1.png" alt="">
+						<p>{{item.title}}</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/1.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/1.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/1.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li> -->
+					</ul>
+					</li>
+					<li class="mt_list_menu">
+					<a href="#" >送亲子</a>
+					<!-- 子列表二 -->
+					<ul class="tea_detail">
+					<!-- <li class="tea_detail_pic">
+						<img src="img/list_top/2.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/2.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/2.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/2.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li> -->
+					</ul>
+					</li>
+					<li class="mt_list_menu">
+					<a href="#" >送长辈</a>
+					<!-- 子列表三 -->
+					<ul class="tea_detail">
+						<!-- <li class="tea_detail_pic">
+						<img src="img/list_top/3.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/3.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/3.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/3.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li> -->
+					</ul>
+					</li>
+					<li class="mt_list_menu">
+					<a href="#">送闺蜜</a>
+					<!-- 子列表四-->
+					<ul class="tea_detail">
+						<!-- <li class="tea_detail_pic">
+						<img src="img/list_top/4.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/4.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/4.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/4.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li> -->
+					</ul>
+					</li>
+					<li class="mt_list_menu">
+					<a href="#" >送恋人</a>
+					<!-- 子列表五 -->
+					<ul class="tea_detail">
+						<!-- <li class="tea_detail_pic">
+						<img src="img/list_top/5.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/5.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/5.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li>
+						<li class="tea_detail_pic">
+						<img src="img/list_top/5.png" alt="">
+						<p>极地牛乳</p>
+						<span>￥198.00</span>
+						</li> -->
+					</ul>
+					</li>
+				</ul>
+				</div>
+				<!-- 搜索+登录注册 -->
+				<div class="mt_search">
+				<!-- 搜索框 -->
+				<div>
+					<div>
+					<img src="img/logo/search.png">
+					<input type="text" placeholder="请输入要查找的内容">
+					</div>
+					<div id="search">搜索</div>
+				</div>
+				<!-- 用户登陆注册 -->
+				<div>
+					<img src="img/logo/transfer.png">
+				</div>
+				</div>
+			</div>
+			<!-- 中部 轮播 左右2:10 -->
+			<div class="my_carousel">
+				<!-- 左侧导航 -->
+				<div class=" ml_list">
+					<ul>
+						<li class="ml_list_detail">
+							<!-- 导航左侧图片+文字 -->
+							<div>
+							<img src="img/logo/one-1.png" alt="">
+							<span>蛋糕匠心原创</span>
+							</div>
+							<!-- 导航右侧箭头 -->
+							<img src="img/logo/jt.png" alt="">
+							<!-- 子列表一 -->
+							<div class="list_detail">
+								<ul>
+									<li><a href=""><img src="img/left_list/奥利奥雪域牛乳芝士.png" alt="" />一见倾心</a></li>
+									<li><a href=""><img src="img/left_list/奥利奥雪域牛乳芝士.png" alt="" />旧时光</a></li>
+									<li><a href=""><img src="img/left_list/奥利奥雪域牛乳芝士.png" alt="" />歌剧魅影</a></li>
+									<li><a href=""><img src="img/left_list/奥利奥雪域牛乳芝士.png" alt="" />露水茶颜</a></li>
+									<li><a href=""><img src="img/left_list/奥利奥雪域牛乳芝士.png" alt="" />许愿天使</a></li>
+									<li><a href=""><img src="img/left_list/奥利奥雪域牛乳芝士.png" alt="" />双果小确幸</a></li>
+									<li><a href=""><img src="img/left_list/奥利奥雪域牛乳芝士.png" alt="" />星光游乐园</a></li>
+									<li><a href=""><img src="img/left_list/奥利奥雪域牛乳芝士.png" alt="" />马卡龙の吻</a></li>
+									<li><a href=""><img src="img/left_list/奥利奥雪域牛乳芝士.png" alt="" />红梅森林</a></li>
+								</ul>	
+							</div>
+						</li>
+						<li class="ml_list_detail">
+							<!-- 导航左侧图片+文字 -->
+							<div>
+							<img src="img/logo/one-3.png" alt="">
+							<span>糖果西点</span>
+							</div>
+							<!-- 导航右侧箭头 -->
+							<img src="img/logo/jt.png" alt="">
+							<!-- 子列表二 -->
+							<div class="list_detail">
+							<ul>
+								<!-- <li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />一见倾心</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />旧时光</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />歌剧魅影</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />露水茶颜</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />许愿天使</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />双果小确幸</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />星光游乐园</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />马卡龙の吻</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />红梅森林</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />红梅森林</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />一见倾心</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />旧时光</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />歌剧魅影</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />露水茶颜</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />许愿天使</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />双果小确幸</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />星光游乐园</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />马卡龙の吻</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />红梅森林</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />红梅森林</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />一见倾心</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />旧时光</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />歌剧魅影</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />露水茶颜</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />许愿天使</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />双果小确幸</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />星光游乐园</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />马卡龙の吻</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />红梅森林</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />红梅森林</a></li> -->
+							</ul>	
+							</div>
+						</li>
+						<li class="ml_list_detail">
+							<!-- 导航左侧图片+文字 -->
+							<div>
+							<img src="img/logo/one-4.png" alt="">
+							<span>乳品系列</span>
+							</div>
+							<!-- 导航右侧箭头 -->
+							<img src="img/logo/jt.png" alt="">
+							<!-- 子列表三 -->
+							<div class="list_detail">
+								<ul>
+								<!-- <li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />一见倾心</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />旧时光</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />歌剧魅影</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />露水茶颜</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />许愿天使</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />双果小确幸</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />星光游乐园</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />马卡龙の吻</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />红梅森林</a></li>
+								<li><a href=""><img src="img/left_list/白色红丝绒.png" alt="" />红梅森林</a></li> -->
+								</ul>
+							</div>
+						</li>
+						<li>
+							<hr>
+						</li>
+						<li >
+							<!-- 导航左侧图片+文字 -->
+							<div>
+							<img src="img/logo/one-7.png" alt="">
+							<span>吉致泡芙</span>
+							</div>
+							<!-- 导航右侧箭头 -->
+							<img src="img/logo/jt.png" alt="">
+						
+						</li>
+						<li class="ml_list_detail">
+							<!-- 导航左侧图片+文字 -->
+							<div>
+							<img src="img/logo/one-8.png" alt="">
+							<span>数字蛋糕</span>
+							</div>
+							<!-- 导航右侧箭头 -->
+							<img src="img/logo/jt.png" alt="">
+						</li>
+						<li >
+							<!-- 导航左侧图片+文字 -->
+							<div>
+							<img src="img/logo/one-9.png" alt="">
+							<span>星座</span>
+							</div>
+							<!-- 导航右侧箭头 -->
+							<img src="img/logo/jt.png" alt="">
+						</li>
+					</ul>
+				</div>
+				<!-- 轮播图右 -->
+				<div class=" my_carsousel_right" style="padding:0;" >
+				<!-- 轮播图片 -->
+					<div id="carsousel" style="left:0;">
+						<!-- <img src="img/carousel/1.jpg" >
+						<img src="img/carousel/2.jpg" >
+						<img src="img/carousel/3.jpg" > -->
+					</div>
+					<!-- 右下角小原点 -->
+					<!-- <div > -->
+						<ul  class="my_icons" >
+							<li class="my_icon" index="0" style="background:white;"></li>
+							<li class="my_icon" index="1"></li>
+							<li class="my_icon" index="2"></li>
+														
+						</ul>
+					<!--  </div> -->
+					<!-- 指示箭头 -->
+					<div class="arrows">
+						<img src="img/logo/left.png" class="arrows_left">
+						<img src="img/logo/right.png" class="arrows_right">
+					</div>
+				</div>
+			</div>				
+			<!--第三部分 2:10-->
+			<div class="my_card">
+				<!-- 左侧 福利区 -->
+				<div >
+					<!-- 企业试吃 -->
+					<div class="left_list">
+						<div>
+							<img src="img/Carousel/1.png"><br>
+							<a href="#">企业试吃</a>
+						</div>
+					</div>
+					<!-- 企业福利卡 -->
+					<div class="left_list">
+						<div>
+							<img src="img/Carousel/2.png"><br>
+							<a href="#">企业福利卡</a>
+						</div>
+					</div>
+					<!-- 代金卡兑换 -->
+					<div class="left_list">
+						<div>
+							<img src="img/Carousel/3.png"><br>
+							<a href="#">代金卡兑换</a>
+						</div>
+					</div>
+					<!-- 小食卡兑换 -->
+					<div class="left_list">
+						<div>
+							<img src="img/Carousel/4.png"><br>
+							<a href="#">小食卡兑换</a>
+						</div>
+					</div>
+				</div>
+				<!-- 右侧 单品推送 -->
+				<div id="new_product">
+					<!-- <div ><img src="img/Carousel/xz1.jpg"></div>
+					<div><img src="img/Carousel/r2.png"></div>
+					<div ><img src="img/Carousel/tz3.png"></div> -->
+				</div>
+			</div>
+			<!--左侧 客服 -->
+			<div>
+				<img src="img/logo/server.png" class="my_fixed_left">
+			</div>
+			<!--  右侧 固定窗口 -->
+			<div >
+				<div class="my_fixed_right">
+					<div >
+						<img src="img/logo/gerenzhongxin.png"><br>
+						<span>个人中心</span>
+					</div>
+					<div id="car">
+						<img src="img/logo/gouwuche.png"><br>
+						<span >购物车</span>
+						<div><span>0</span></div>
+					</div>
+					<div>
+						<img src="img/logo/jiantou.png"><br>
+						<span>回顶部</span>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 登录/注册/地址定位 -->
+	<div class="special">
+			<!-- 登陆 -->
+			<form class="login" >
+				<!-- 普通登录 -->
+				<div class="login_one">
+					<!-- 顶部切换 -->
+					<div class="login_top">
+					<span>x</span>
+					<span>请移至快速登录
+						<img src="img/logo/arrow_right.png" alt="">
+					</span>
+			
+					</div>
+					<!-- 登录 -->
+					<div>——普通登录——</div>
+					<!-- 登录框 -->
+					<p class="login_input">
+						<img src="img/logo/iphone.png" alt="">
+						<input type="text" name="uname" placeholder="请输入手机号">
+						
+					</p>
+					<!-- 密码框 -->
+					<p class="login_input">
+					<img src="img/logo/password.png" alt="">
+					<input type="text" name="upwd" placeholder="请输入密码" class="password">
+					
+					</p>
+					<!-- 错误提示文字 -->
+					<div class="msg"></div>
+					<!-- 登录按钮 -->
+					<p><input type="submit" value="登陆" class="submit"></p>
+					<!-- 协议 -->
+					<p>
+					<span class="login_true">
+						<!-- 复选框 -->
+						<input type="checkbox" checked disabled>
+						我阅读并同意
+						<a href="#">《会员注册协议》</a>和
+						<a href="#">《隐私保护政策》</a>
+					</span><br>
+					
+					</p>
+					<p>
+					<span>忘记密码</span>
+					<span id="register">注册账号</span>
+					</p>
+				</div>
+			</form>
+			<!-- 注册 -->
+			<form class="register">
+				<div class="register_one">
+					<div class="my_close">x</div>
+					<div>—— 普通登陆注册 ——</div>
+					<!-- 用户名 -->
+					<div class="my_input">
+						<img src="img/logo/iphone.png" alt="" />
+						<input type="text" placeholder="请输入手机号码" />	
+					</div>
+					
+					<!-- 密码 -->
+					<div class="my_input">
+						<img src="img/logo/password.png" alt="" />
+						<input type="text" placeholder="密码 需6位以上的数字或字母"/>
+					</div>
+					<!-- 确认密码 -->
+					<div class="my_input" >
+						<img src="img/logo/password-2.png" alt="" />
+						<input type="text" placeholder="确认密码"/>
+					</div>
+					<div class="msg"></div>
+					<input type="submit" value="注册" class="my_btn"/>
+					<!-- 协议 -->
+					<div class="my_check">
+						<input type="checkbox"  disabled checked/>我已阅读并同意
+						<span>《会员注册协议》</span>和
+						<span>《隐私保护政策》</span>
+					</div>
+					<div class="logText">登陆</div>
+				</div>
+			</form>
+			<!-- 地址定位 -->
+			<div class="address">
+				<div class="address_one">
+					<div>
+						<button>上海</button>
+						<button >杭州</button>
+						<button>苏州</button>
+						<button>台州</button>
+						<button>宁波</button>
+						<button>无锡</button>
+					</div>
+					<div>
+						<button>常州</button>
+						<button>北京</button>
+						<button>天津</button>
+						<button>绍兴</button>
+						<button>重庆</button>
+						<button>成都</button>
+					</div>
+					<div>
+						<button>南京</button>
+					</div>
+				</div>
+				<div>
+					<img src="img/logo/address-close.png" alt="" class="my_close_one" />
+				</div>
+			</div>
+		</div>
+	<!-- 楼层-->	
+	<div class="container ">
+		<div class=" my_center_floor">
+			<!-- 楼层顶部 单图 -->
+			 <a href="http://127.0.0.1:8001/detail.html?pid=15"><!--<img src="img/floor/pc1.png">--></a>
+			<!--楼层1-->
+			<!-- 标题 -->
+			<div class="my_title">
+				<p>匠心·原创</p>
+				<div>查看更多 <img src="img/floor/ndex-five-title-r.png"></div>
+			</div>
+			<!-- 楼层1 图片 -->
+			<div class="my_first_floor">
+				<!-- 左侧 单张图片 -->
+				<div id="my_left_product">
+					<!-- <img src="img/floor/index-five-1.png" /> -->
+				</div>
+				<!-- 右侧 产品展示列表 -->
+				<div class=" first_floor_product" >
+					<div >
+						<div class="my_product">
+						  <!-- <img src="img/floor/1.png" />
+							<span>奥利奥</span><br />
+							<span>￥ <span>189.00</span> </span><br>
+							<span>销量<span>4459</span></span><br>
+							<img src="img/floor/index-five-tab-car.png" /> -->
+						</div>
+					</div>
+					<div >
+						<div class="my_product">
+							<!-- <img src="img/floor/2.png" />
+							<span>奥利奥</span><br />
+							<span>￥ <span>189.00</span> </span><br>
+							<span>销量<span>4459</span></span><br>
+							<img src="img/floor/index-five-tab-car.png" /> -->
+						</div>
+					</div>
+					<div >
+						<div class="my_product">
+							<!-- <img src="img/floor/3.png" />
+							<span>奥利奥</span><br />
+							<span>￥ <span>189.00</span> </span><br>
+							<span>销量<span>4459</span></span><br>
+							<img src="img/floor/index-five-tab-car.png" /> -->
+						</div>
+					</div>
+					<div >
+						<div class="my_product">
+						  <!-- <img src="img/floor/4.png" />
+							<span>奥利奥</span><br />
+							<span>￥ <span>189.00</span> </span><br>
+							<span>销量<span>4459</span></span><br>
+							<img src="img/floor/index-five-tab-car.png" /> -->
+						</div>
+					</div>
+					<div >
+						<div class="my_product">
+							<!-- <img src="img/floor/5.png" />
+							<span>奥利奥</span><br />
+							<span>￥ <span>189.00</span> </span><br>
+							<span>销量<span>4459</span></span><br>
+							<img src="img/floor/index-five-tab-car.png" /> -->
+						</div>
+					</div>
+					<div>
+						<div class="my_product">
+							<!-- <img src="img/floor/6.png" />
+							<span>奥利奥</span><br />
+							<span>￥ <span>189.00</span> </span><br>
+							<span>销量<span>4459</span></span><br>
+							<img src="img/floor/index-five-tab-car.png" /> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 楼层2 -->
+			<!-- 标题 -->
+			<div class="my_title">
+				<p>网红爆款</p>
+			</div>
+			<!-- 图片 -->
+			<div class="my_floor_two">
+				<div>
+					<div class="my_product">
+					  <!-- <img src="img/floor/4.png" />
+						<span>奥利奥</span><br />
+						<span>￥ <span>189.00</span> </span><br>
+						<span>销量<span>4459</span></span><br>
+						<img src="img/floor/index-five-tab-car.png" /> -->
+					</div>
+				</div>
+				<div >
+					<div class="my_product">
+					  <img src="img/floor/4.png" />
+						<span>奥利奥</span><br />
+						<span>￥ <span>189.00</span> </span><br>
+						<span>销量<span>4459</span></span><br>
+						<img src="img/floor/index-five-tab-car.png" />
+					</div>
+				</div>
+				<div >
+					<div class="my_product">
+						<img src="img/floor/4.png" />
+						<span>奥利奥</span><br />
+						<span>￥ <span>189.00</span> </span><br>
+						<span>销量<span>4459</span></span><br>
+						<img src="img/floor/index-five-tab-car.png" />
+					</div>
+				</div>
+				<div >
+					<div class="my_product">
+						<img src="img/floor/4.png" />
+						<span>奥利奥</span><br />
+						<span>￥ <span>189.00</span> </span><br>
+						<span>销量<span>4459</span></span><br>
+						<img src="img/floor/index-five-tab-car.png" />
+					</div>
+				</div>
+			</div>
+			<!-- 楼层3 -->
+			<!--标题 -->
+			<div class="my_title">
+				<p>猜你喜欢</p>
+			</div>
+			<!-- 图片 -->
+			<div class="my_floor_two">
+				<div >
+					<div class="my_product">
+						<!-- <img src="img/floor/4.png" />
+						<span>奥利奥</span><br />
+						<span>￥ <span>189.00</span> </span><br>
+						<span>销量<span>4459</span></span><br>
+						<img src="img/floor/index-five-tab-car.png" /> -->
+					</div>
+				</div>
+				<div >
+					<div class="my_product">
+					  <!-- <img src="img/floor/4.png" />
+						<span>奥利奥</span><br />
+						<span>￥ <span>189.00</span> </span><br>
+						<span>销量<span>4459</span></span><br>
+						<img src="img/floor/index-five-tab-car.png" /> -->
+					</div>
+				</div>
+				<div >
+					<div class="my_product">
+					  <!-- <img src="img/floor/4.png" />
+						<span>奥利奥</span><br />
+						<span>￥ <span>189.00</span> </span><br>
+						<span>销量<span>4459</span></span><br>
+						<img src="img/floor/index-five-tab-car.png" /> -->
+					</div>
+				</div>
+				<div >
+					<div class="my_product">
+					  <!-- <img src="img/floor/4.png" />
+						<span>奥利奥</span><br />
+						<span>￥ <span>189.00</span> </span><br>
+						<span>销量<span>4459</span></span><br>
+						<img src="img/floor/index-five-tab-car.png" /> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--底部  -->
+	<footer class="container my_footer">		
+		<!-- <div> -->
+			<!--第1行-->
+		    <div>
+				<img src="img/footer/logo-2.png" />
+				<span>贝客思</span>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<div><img src="img/footer/weixin.png" /></div>
+				<div>
+					<div class="my_white">APP</div>
+				</div>
+		    </div>
+			<!--第2/3行-->
+			<div class="my_white">21点前下单支持明天开始配送，21点后下单支持后天开始配送</div>
+			<div class="my_white">
+				<img src="img/footer/bohao.png" />客服电话：400627-5757 021-26079350
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				工作时间（9：00-21：00）
+			</div>
+			<!--第4行-->
+			<div>
+				<ul>
+					<li><a href="#">代金卡章程</a></li>
+					<li><a href="#">购物指南</a></li>
+					<li><a href="#">服务条款</a></li>
+					<li><a href="#">配送方式</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">品牌故事</a></li>
+					<li style="border-right:none;"><a href="#">网站地图</a></li>
+				</ul>
+			</div>
+			<!--第5/6行-->
+			<div></div>
+			<div class="my_white">Copyright © 2010-2018 bestcake.com 版权所有 沪ICP备11046518</div>
+		<!-- </div>	 -->
+	</footer>
+	<script src="js/index.js"></script>
+	<script src="js/ajax.js"></script>
+</body>
+</html>

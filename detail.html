@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery-1.11.3.js"></script>
+  
+</head>
+<body>
+    <header></header>
+    <div class="container">
+			<button>经典系列</button>
+			<img src="img/detail/detail_one/右箭头.png" />
+			<button class="title_one"></button><br />
+			<!-- 产品详情 左右 8:4-->
+            <!-- 左侧 图片 -->
+            <div class="my_pic">
+                <div class=" my_detail_left">
+                    <!-- 大图 -->
+                    <!-- <div class="my_detail_left_l">
+                        <img src="img/detail/detail_one/极地牛乳-1.jpg" alt="" /><br />	
+                        <img src="img/detail/detail_one/极地牛乳-2.jpg" alt="" /><br />	
+                        <img src="img/detail/detail_one/极地牛乳-3.jpg" alt="" /><br />	
+                        <img src="img/detail/detail_one/极地牛乳-4.jpg" alt="" /><br />	
+                    </div> -->
+                    <!-- 小图 -->
+                    <!-- <div class="my_detail_left_s">
+                        <img src="img/detail/detail_one/极地牛乳-1(1).jpg" alt="" />
+                        <img src="img/detail/detail_one/极地牛乳-2(1).jpg" alt="" />
+                        <img src="img/detail/detail_one/极地牛乳-3(1).jpg" alt="" />
+                        <img src="img/detail/detail_one/极地牛乳-4(1).jpg" alt="" />
+                    </div> -->
+                </div>
+                <!-- 右侧规格 文字部分 -->
+                <div class=" my_detail_right">
+                    <!-- 价格 -->
+                    <div class="right_size">
+                        <!-- <h4>极地牛乳</h4>
+                        <br>
+                        <span class="active_span">￥198<span>.00</span></span>
+                        <span>￥298<span>.00</span></span>
+                        <span>￥398<span>.00</span></span>
+                        <span>￥698<span>.00</span></span> -->
+                        <!-- 甜度 -->
+                        <!-- <div>甜度: &nbsp;<img src="img/detail/detail_one/tian3.png" alt=""></div>
+                        <div class="btn_detail">
+                            <button class="active_btn">1.2磅</button>
+                            <button>2.2磅</button>
+                            <button>3.2磅</button>
+                            <button>7.0磅</button>
+                        </div> -->
+                    </div>
+                    <hr>
+                    <!-- 适用几人份 -->
+                    <!-- 1.2磅 -->
+                    <div class="size active">  
+                        <div >
+                            <img src="img/detail/detail_one/下载.png" alt="">
+                            <span>13.5*13.5cm</span>  <br>
+                            <img src="img/detail/detail_one/下载 (1).png" alt="">
+                            <span>含五人份餐具</span> 
+                        </div>
+                        <div>
+                            <img src="img/detail/detail_one/下载 (2).png" alt="">
+                            <span>适合4-5人分享</span>   <br>                                    
+                            <img src="img/detail/detail_one/下载 (3).png" alt="">
+                            <span>至少需提前一天预约</span>
+                        </div>
+                    </div>
+                    <!-- 2.2 磅 -->
+                    <div class="size ">  
+                        <div >
+                            <img src="img/detail/detail_one/下载.png" alt="">
+                            <span>17*17cm</span>  <br>
+                            <img src="img/detail/detail_one/下载 (1).png" alt="">
+                            <span>含十人份餐具</span> 
+                        </div>
+                        <div>
+                            <img src="img/detail/detail_one/下载 (2).png" alt="">
+                            <span>适合8-10人分享</span>   <br>                                    
+                            <img src="img/detail/detail_one/下载 (3).png" alt="">
+                            <span>至少需提前一天预约</span>
+                        </div>
+                    </div>
+                    <!-- 3.2磅 -->
+                    <div class="size ">  
+                        <div >
+                            <img src="img/detail/detail_one/下载.png" alt="">
+                            <span>21*21cm</span>  <br>
+                            <img src="img/detail/detail_one/下载 (1).png" alt="">
+                            <span>含十五人份餐具</span> 
+                        </div>
+                        <div>
+                            <img src="img/detail/detail_one/下载 (2).png" alt="">
+                            <span>适合12-15人分享</span>   <br>                                    
+                            <img src="img/detail/detail_one/下载 (3).png" alt="">
+                            <span>至少需提前一天预约</span>
+                        </div>
+                    </div>
+                    <!-- 7.0磅 -->
+                    <div class="size ">  
+                        <div >
+                            <img src="img/detail/detail_one/下载.png" alt="">
+                            <span>27*40.5cm</span>  <br>
+                            <img src="img/detail/detail_one/下载 (1).png" alt="">
+                            <span>含四十人份餐具</span> 
+                        </div>
+                        <div>
+                            <img src="img/detail/detail_one/下载 (2).png" alt="">
+                            <span>适合35-40人分享</span>   <br>                                    
+                            <img src="img/detail/detail_one/下载 (3).png" alt="">
+                            <span>至少需提前一天预约</span>
+                        </div>
+                    </div>
+                    <!--加减 -->
+                    <div class="my_button">
+                            <button >
+                                    <canvas id="btn1" width="20" height="20" class="btn_can"></canvas>
+                            </button>
+                            <input type="text" value=1 >
+                            <button >
+                                    <canvas id="btn2" width="20" height="20" class="btn_can"></canvas>
+                            </button>
+                        </div>
+                    <hr>
+                    <!-- 加入购物车 -->
+                    <div>
+                        <button id="car">加入购物车
+                            <!-- 加入购物车弹窗 -->
+                            <div class="car_bg">
+                                <div class="car_box">
+                                    <span>您已将<span class="car_value"></span>款极地牛乳加入购物车</span><br>
+                                    <input type="button" value="确认">
+                                </div>
+                            </div>
+                        </button>
+                        <button>立即购买</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- 商品详情+评价 -->
+			<div class="my_detail">
+				<span  class="active_text">商品详情</span> 
+                <span>商品评价（<span>1645</span>条）</span>         
+			</div>
+				
+			<!-- 商品详情 -->
+			<div class="describe">
+                <!-- <div class="my_detail_text">
+                    <div>
+                        <span>品牌：贝思客</span>
+                        <span >口味：浓情芝士</span>
+                    </div>
+                    <span>原材料：进口纯动物奶油、进口安佳奶酪、香滑巧克力、进口韩国幼砂糖、吉利丁</span>
+                </div>
+                <div class="my_detail_text">
+                    <span>最适宜0℃~8℃冷藏保存，离开冷藏请勿超过2小时</span>
+                    <span>适合人群：所有人群</span>
+                </div> -->
+            </div>
+			<!-- 商品评价 -->
+            <div class="discuss_all">
+                
+                <!-- 评价1 -->
+                <div class="discuss">		
+                        <div class="discuss_one">
+                            <img src="img/detail/detail_one/comment-head.png" alt=""  />
+                            <!-- 点赞 -->
+                            <div>
+                                <div>182****1952</div>
+                                <img src="img/detail/detail_one/score.png" alt="">  
+                            </div>
+                        </div>
+                        <!-- 日期 -->
+                        <div>2018-03-23 13:37:00</div>	
+                </div>
+                <!-- 评价2 -->
+                <div class="discuss">		
+                    <div class="discuss_one">
+                        <img src="img/detail/detail_one/908141.jpg" alt=""  />
+                        <!-- 点赞 -->
+                        <div>
+                            <div>182****1952</div>
+                            <img src="img/detail/detail_one/score.png" alt="">  
+                        </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div>2018-03-23 13:37:00</div>	
+                </div>
+                <div class="discuss">		
+                    <div class="discuss_one">
+                        <img src="img/detail/detail_one/comment-head.png" alt=""  />
+                        <!-- 点赞 -->
+                        <div>
+                            <div>182****1952</div>
+                            <img src="img/detail/detail_one/score.png" alt="">  
+                        </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div>2018-03-23 13:37:00</div>	
+                </div>
+                <div class="discuss">		
+                    <div class="discuss_one">
+                        <img src="img/detail/detail_one/comment-head.png" alt=""  />
+                        <!-- 点赞 -->
+                        <div>
+                            <div>182****1952</div>
+                            <img src="img/detail/detail_one/score.png" alt="">  
+                        </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div>2018-03-23 13:37:00</div>	
+                </div>
+                <div class="discuss">		
+                    <div class="discuss_one">
+                        <img src="img/detail/detail_one/comment-head.png" alt=""  />
+                        <!-- 点赞 -->
+                        <div>
+                            <div>182****1952</div>
+                            <img src="img/detail/detail_one/score.png" alt="">  
+                        </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div>2018-03-23 13:37:00</div>	
+                </div>
+                <div class="discuss">		
+                    <div class="discuss_one">
+                        <img src="img/detail/detail_one/comment-head.png" alt=""  />
+                        <!-- 点赞 -->
+                        <div>
+                            <div>182****1952</div>
+                            <img src="img/detail/detail_one/score.png" alt="">  
+                        </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div>2018-03-23 13:37:00</div>	
+                </div>
+                <div class="discuss">		
+                    <div class="discuss_one">
+                        <img src="img/detail/detail_one/908141.jpg" alt=""  />
+                        <!-- 点赞 -->
+                        <div>
+                            <div>182****1952</div>
+                            <img src="img/detail/detail_one/score.png" alt="">  
+                        </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div>2018-03-23 13:37:00</div>	
+                </div>
+                <div class="discuss">		
+                    <div class="discuss_one">
+                        <img src="img/detail/detail_one/comment-head.png" alt=""  />
+                        <!-- 点赞 -->
+                        <div>
+                            <div>182****1952</div>
+                            <img src="img/detail/detail_one/score.png" alt="">  
+                        </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div>2018-03-23 13:37:00</div>	
+                </div>
+                <div class="discuss">		
+                    <div class="discuss_one">
+                        <img src="img/detail/detail_one/comment-head.png" alt=""  />
+                        <!-- 点赞 -->
+                        <div>
+                            <div>182****1952</div>
+                            <img src="img/detail/detail_one/score.png" alt="">  
+                        </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div>2018-03-23 13:37:00</div>	
+                </div>
+                <div class="discuss">		
+                    <div class="discuss_one">
+                        <img src="img/detail/detail_one/comment-head.png" alt=""  />
+                        <!-- 点赞 -->
+                        <div>
+                            <div>182****1952</div>
+                            <img src="img/detail/detail_one/score.png" alt="">  
+                        </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div>2018-03-23 13:37:00</div>	
+                </div>
+                <div class="discuss">		
+                    <div class="discuss_one">
+                        <img src="img/detail/detail_one/comment-head.png" alt=""  />
+                        <!-- 点赞 -->
+                        <div>
+                            <div>182****1952</div>
+                            <img src="img/detail/detail_one/score.png" alt="">  
+                        </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div>2018-03-23 13:37:00</div>	
+                </div>
+                <!-- 分页 -->
+                <div class="search_limit">
+                    <a href="#">上一页</a>
+                    <a href="#" class="search_limit_one">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <span>...</span>
+                    <a href="#" >下一页</a>
+                </div>
+                <br />
+            </div>
+			
+             <!-- 图文详情 -->
+            <div class="my_detail_picture">
+               
+                <span>图片仅供参考，请以实物为准</span><br>
+                <span>芝士的香气透过肆意飘洒的白雪氤氲开来，宛如午后从窗外洒进来的温暖阳光，不忍错过。内在的柔软细腻，更衬托出外表的纯白无瑕，简约的美铸就了经典。</span>
+                
+                <!-- <img src="img/detail/detail_one/极地牛乳1.jpg" alt="" />
+                <img src="img/detail/detail_one/极地牛乳2.jpg" alt="" />
+                <img src="img/detail/detail_one/极地牛乳3.jpg" alt="" />
+                <img src="img/detail/detail_one/size.jpg" alt="" /> -->
+            </div>
+			<!-- 配送范围 -->
+			<div>
+                <div class="map_a">上海</div>
+                <div class="map_b">上海申嘉湖高速以北，绕城高速以南，外环高速以西，沈海高速以东区域及嘉定行政区免费配送，超出区域按30元/个收取运费。</div>
+                <div class="map_a">苏州</div>
+                <div class="map_b">周湖线云龙路以北，G15W常台高速以西，S230太湖苏州湾大桥以东免费配送。苏州绕城之内除阳澄湖地区（G15W以东，G2京沪高速以北）暂不支持配送。昆山区域：陆丰东路中环南线以北，城北路以南，沿沪大道以西，常嘉高速以东免费配送。</div>
+                <div class="map_a">杭州</div>
+                <div class="map_b">余杭区,拱墅区,西湖区,上城区,下城区,江干区,滨江区,萧山区(以上区域绕城内免费配送，其他区域暂不支持配送)。</div>
+            </div>
+    </div>
+    <footer></footer>
+    
+    <script src="js/detail.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/base.js"></script>
+</body>
+</html>
